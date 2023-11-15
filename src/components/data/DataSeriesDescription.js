@@ -1,0 +1,8 @@
+const seriesDescriptions = {
+    'Parfumerie Collection': `Immerse yourself in the artistry of fragrance with our BELLE.Parfumerie Collection, where every scent is a masterpiece of sophistication and elegance. From the graceful dance of floral notes to the complex symphonies of rare ingredients, our fragrances offer an exquisite olfactory journey. Let each perfume transport you to a realm where beauty and aroma harmonize, creating moments of pure luxury.`,
+    'Arome Series': `Discover the essence of allure with our BELLE.Arome Series, where each fragrance is a symphony of enchanting notes that captivate the senses. Here, we delve deep into the world of perfumery, crafting scents that embrace the soul and awaken the spirit. Explore a harmonious blend of natural elements, creating a poetic narrative that resonates with elegance and intrigue.`,
+    'Fleur Fragrances': `Experience the timeless beauty of nature with BELLE.Fleur Fragrances, a collection inspired by the delicate and captivating aromas of flowers in bloom. Our perfumes are crafted to capture the very essence of these blossoms, celebrating their fragility and enduring charm. Allow the scents to transport you to serene gardens and meadows where the beauty of flora enchants the soul.`,
+    'Essence Elixirs': `Unlock the essence of luxury with BELLE.Essence Elixirs, a series of fragrances that define sophistication and evoke a sense of timeless beauty. Our elixirs are more than perfumes; they are experiences in themselves, weaving stories of opulence and refinement. Let these fragrances accompany you through life's grand occasions, enhancing your presence with their rich and enduring allure.`,
+};
+
+export default seriesDescriptions;
