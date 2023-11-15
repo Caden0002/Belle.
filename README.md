@@ -1,8 +1,26 @@
-# React + Vite
+https://653f0ef9a846547e7ff07e7c--gilded-sable-5c59b4.netlify.app/
+#### How to Install and Run the Project ####
+1. Open Terminal at the project's CD<br />
+2. npm install<br />
+3. npm run dev<br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Belle.
+After spending a year in the crypto industry, I was inspired to embark on my journey as a frontend developer. One of my initial ideas was to build a website that displays real-life crypto data. Lightspeed is a crypto platform that empowers users to access real-time information on all cryptocurrencies.
 
-Currently, two official plugins are available:
+## Tech Stack ##
+React<br />
+Tailwind<br />
+Context API<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Inspirations ##
+https://www.chanel.com/sg/\
+
+## Tech Debt ##
+Routing for each shopping categories. Currently the default shopping category is essence which could not be changed.
+
+## What's next? ##
+
+
+
+
+
