@@ -1,44 +1,39 @@
-import React from 'react';
-import { FaLinkedin, FaGithub, FaUserTie, FaBlog} from 'react-icons/fa';
+import React from "react";
+import { FaGithub, FaMediumM, FaLinkedin } from 'react-icons/fa';
 
 
-const background = "bg-backgroundColorTertiary";
-const FooterPrivacyText = '© 2023 Caden Chen. All Rights Reserved.';
-const FooterDisclaimer = 'This webpage is intended for personal and educational purposes and does not support or endorse commercial usage of any copyrighted material.'
-const FooterIcons = [
-    <a href="https://www.linkedin.com/in/caden-chen-576189205/" key="linkedin" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>,
-    <a href="https://github.com/Caden0002" key="github" target="_blank" rel="noopener noreferrer"><FaGithub /></a>,
-    <a href="https://www.cadenchen.net/" key="usertie" target="_blank" rel="noopener noreferrer"><FaUserTie /></a>,
-    <a href="https://blog.cadenchen.net/" key="blog" target="_blank" rel="noopener noreferrer"><FaBlog /></a>,
-];
+const heading = 'Designed and Built by Caden Chen';
+
+
+const headingLink = "https://github.com/Caden0002/Seasons"
+
+
+const githubLink = 'https://github.com/Caden0002';
+const linkedinLink = 'https://www.linkedin.com/in/caden-chen-576189205/';
+const mediumLink = 'https://medium.com/@caden0002';
 
 function Footer(props) {
     return (
-        <div className={background}>
-            {/*container for the section*/}
-            <div className="container max-w-screen-xl mx-auto flex justify-center items-center md:min-h-full py-10 px-10">
-                <div className="lg:w-8/12 w-full">
+        <div className="bg-backgroundColorSecondary">
+            <div id="Footer" className="mx-auto flex flex-col h-full items-center p-12 ">
 
+                <div className="flex space-x-8  z-10 mb-4">
+                    <a href={githubLink} target="_blank" rel="noopener noreferrer">
+                        <FaGithub size={16} className=" text-textColorSecondary hover:text-textColorTertiary"  />
+                    </a>
+                    <a href={linkedinLink} target="_blank" rel="noopener noreferrer" >
+                        <FaLinkedin size={16} className="text-textColorSecondary hover:text-textColorTertiary" />
+                    </a>
+                    <a href={mediumLink} target="_blank" rel="noopener noreferrer">
+                        <FaMediumM size={16} className="text-textColorSecondary hover:text-textColorTertiary" />
+                    </a>
+                </div>
 
+                <div className="flex flex-col md:flex-row space-x-2">
 
-
-                    <p className="block text-sm text-center text-textColorSecondary ">
-                        {FooterPrivacyText}
-                    </p>
-
-
-                    {/* Footer icons */}
-                    <div className="flex justify-center m-5 space-x-5 text-textColorSecondary">
-                        {FooterIcons.map((Icon, index) => (
-                            <div key={index}>
-                                {Icon}
-                            </div>
-                        ))}
-                    </div>
-
-                    <p className="block text-xs text-center text-textColorTertiary">
-                        {FooterDisclaimer}
-                    </p>
+                    <a href={headingLink} target="_blank" rel="noopener noreferrer" className="font-mono text-xs text-textColorSecondary hover:text-textColorTertiary text-center z-10">
+                        {heading}
+                    </a>
 
                 </div>
 

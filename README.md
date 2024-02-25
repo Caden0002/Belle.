@@ -1,4 +1,4 @@
-https://653f0ef9a846547e7ff07e7c--gilded-sable-5c59b4.netlify.app/
+https://belle.cadenchen.net/
 #### How to Install and Run the Project ####
 1. Open Terminal at the project's CD<br />
 2. npm install<br />
@@ -13,7 +13,7 @@ Tailwind<br />
 Context API<br />
 
 ## Inspirations ##
-https://www.chanel.com/sg/\
+https://www.chanel.com/sg/
 
 ## Tech Debt ##
 Routing for each shopping categories. Currently the default shopping category is essence which could not be changed.
