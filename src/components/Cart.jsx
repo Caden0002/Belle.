@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import CartItem from './CartItem.jsx';
-import { useCartContext } from '../context/cartContext';
+import { useCartContext } from '../context/CartContext';
 
 
 
