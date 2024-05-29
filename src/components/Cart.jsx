@@ -30,7 +30,7 @@ const Cart = ({ setShowCart }) => {
 
     return (
         <div className="bg-[#0000007d] w-full h-screen fixed left-0 top-0 z-50 flex items-center justify-center">
-            <div ref={modalRef} className={`max-w-[400px] md:max-w-[500px] w-full ${background} py-2 md:p-6 z-60 rounded-md`}>
+            <div ref={modalRef} className={`max-w-[400px] md:max-w-[500px] w-full ${background} pt-2 pb-8 md:p-6 z-60 rounded-md`}>
                 <div className="relative">
                     <FaTimes
                         className="absolute right-4 top-4 m-2 text-[16px] text-textColorPrimary cursor-pointer"
