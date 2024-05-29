@@ -1,7 +1,7 @@
-import fleur from '../assets/home/FleurFragrancesSeries.svg';
-import parfumerie from '../assets/home/ParfumerieCollection.svg';
-import arome from '../assets/home/AromaSeries.svg';
-import essence from '../assets/home/EssenceElixirSeries.svg';
+import fleur from '../assets/home/FleurFragrancesSeries.png';
+import parfumerie from '../assets/home/ParfumerieCollection.png';
+import arome from '../assets/home/AromaSeries.png';
+import essence from '../assets/home/EssenceElixirSeries.png';
 
 import { Link } from 'react-router-dom';
 

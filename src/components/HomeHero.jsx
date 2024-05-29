@@ -1,4 +1,4 @@
-import banner from '../assets/home/perfumeModel.svg';
+import banner from '../assets/home/perfumeBanner.png';
 import { Link } from 'react-router-dom';
 
 const background = banner;
@@ -12,7 +12,7 @@ function HomeHero() {
     return (
         // Component Container
         <div
-            className="bg-cover bg-black sm:bg-center bg-no-repeat"
+            className="bg-cover bg-right bg-no-repeat"
             style={{ backgroundImage: `url(${background})` }}
         >
         <div id="Home" className="container max-w-screen-xl flex items-center min-h-screen font-Signikta py-20 px-10 xl:px-80">
